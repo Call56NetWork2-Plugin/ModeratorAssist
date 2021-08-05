@@ -1,0 +1,19 @@
+name: ModeratorAssist
+version: 1.0.0
+main: mod.assist.moderatorassist.ModeratorAssist
+api-version: 1.17
+description: 簡単にゲームモードを変更できるようにします
+authors:
+  - Akkey57492
+  - kinoko2k
+commands:
+  gmc:
+    permission: mod.assist.creative
+    description: ゲームモードをクリエイティブモードに切り替えます
+    permission-message: あなたはModeratorAssistでクリエイティブモードに切り替える権限がありません
+    usage: /gmc
+  gms:
+    permission: mod.assist.survival
+    description: ゲームモードをサバイバルモードに切り替えます
+    permission-message: あなたはModeratorAssistでクリエイティブモードに切り替える権限がありません
+    usage: /gms
